@@ -1,0 +1,555 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* @import url('css/font-awesome.min.css');*/
+
+/* In html file */
+/*<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta name="viewport" content="width=device-width">*/
+
+/**
+ * 8.0 Media Queries
+ * ----------------------------------------------------------------------------
+ */
+
+/* Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+@-ms-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+
+@media (max-width: 1440px) {
+	.owl-carousel .owl-nav button.owl-prev {
+
+		left: -715px !important;
+	
+	}
+
+
+	.owl-carousel .owl-nav button.owl-next {
+	
+		left: -610px !important;
+		
+}
+}
+@media (max-width: 1400px) {
+
+
+	.owl-carousel .owl-nav button.owl-next {
+		left: -600px !important;
+	}
+
+	.owl-carousel .owl-nav button.owl-prev {
+		left: -700px !important;
+	}
+}
+@media (max-width: 1300px) {
+	.owl-carousel .owl-nav button.owl-prev {
+		left: -650px !important;
+	}
+
+	.owl-carousel .owl-nav button.owl-next {
+		left: -550px !important;
+	}
+}
+@media (max-width: 1200px) {
+	.owl-carousel .owl-nav button.owl-prev {
+		left: -600px !important;
+	}
+
+	.owl-carousel .owl-nav button.owl-next {
+		left: -500px !important;
+	}
+	}
+
+@media (max-width: 1069px) {
+
+
+	:root {
+	
+		--btn-font-size:25px !important;
+		--heading-font-size:45px !important;
+	
+	  }
+
+
+
+
+
+
+	.text h1 {
+		font-size: 80px !important;
+		
+		line-height: 100px !important;
+	}
+
+	.text span {
+	
+		font-size: 60px !important;
+	} 
+
+	.border-btn {
+	
+		
+		width: 300px !important;
+		
+	}
+
+	.owl-carousel .owl-nav button.owl-prev {
+		left: -535px !important;
+	}
+
+	.owl-carousel .owl-nav button.owl-next {
+		left: -435px !important;
+	}
+
+
+
+	#get .parent .circle-p {
+		width: 330px !important;
+		height: 330px !important;
+		
+	}
+
+	#get .parent .circle-p .circle-w {
+		width: 280px !important;
+		height: 280px !important;
+	
+	}
+
+	#get .parent .circle-p .circle-w .circle-bor {
+		width: 230px !important;
+		height: 230px !important;
+	
+	}
+
+	#get .parent .circle-p .circle-w .circle-bor h4 {
+		font-size: 25px !important;
+		margin-top: 0px !important;
+	
+	}
+
+	#get .parent .circle-p .circle-w .circle-bor .icon-img img {
+		width: 75px !important;
+	}
+
+	#get .row .col-4 .arrow svg{
+width: 300px !important;
+	}
+
+
+	
+
+	.ftco-section .border-btn.strip-button {
+	
+		margin-top: 25px;
+	}
+
+	.contact-wrap {
+		
+		padding-bottom: 85px !important;
+	}
+
+	#testi h3 {
+		font-size: 65px !important;
+		
+	}
+
+	#feature .row .col{
+		width: 25% !important;
+		flex: 0 0 25% !important;
+	}
+	/* #get .row :first-child.col-4{
+		width: 50%;
+		flex: 0 0 50%;
+	}
+
+	#get .row :nth-child(2).col-4{
+		width: 50%;
+		flex: 0 0 50%;
+	}
+
+	#get .row :last-child.col-4{
+		width: 100%;
+		flex: 0 0 100%;
+	}
+
+	#get .row :last-child.col-4 .arrow svg{
+	transform: scaleX(-1);
+	} */
+}
+
+@media (max-width: 992px) {
+	#get .parent .circle-p {
+		width: 300px !important;
+		height: 300px !important;
+	}
+
+	#get .parent .circle-p .circle-w {
+		width: 250px !important;
+		height: 250px !important;
+	}
+
+	#get .parent .circle-p .circle-w .circle-bor {
+		width: 200px !important;
+		height: 200px !important;
+	}
+
+
+	#get .parent .circle-p .circle-w .circle-bor .icon-img img {
+		width: 60px !important;
+	}
+
+	#get .parent .circle-p .circle-w .circle-bor h4 {
+		font-size: 22px !important;
+		
+	}
+
+	#get .row .col-4 .arrow svg {
+		width: 280px !important;
+	}
+
+	#feature {
+
+		background-size: cover !important;
+	}
+
+	#testi h3 {
+		font-size: 60px !important;
+	}
+
+	.owl-carousel .owl-nav button.owl-prev {
+		left: -495px !important;
+	}
+
+	.owl-carousel .owl-nav button.owl-next {
+		left: -395px !important;
+	}
+}
+@media (max-width: 800px) {
+
+	.text h1 {
+		font-size: 60px !important;
+		line-height: 80px !important;
+	}
+
+	.text span {
+		font-size: 50px !important;
+	}
+
+	#why .row .col-4{
+		width: 50% !important;
+		flex: 0 0 50% !important;
+	}
+
+	#get .row :first-child.col-4{
+		width: 50%;
+		flex: 0 0 50%;
+	}
+
+	#get .row :nth-child(2).col-4{
+		width: 50%;
+		flex: 0 0 50%;
+	}
+
+	#get .row :last-child.col-4{
+		width: 100%;
+		flex: 0 0 100%;
+	}
+
+	#get .row :last-child.col-4 .arrow svg{
+	transform: scaleX(-1);
+	}
+
+	#feature .row .col {
+		width: 33.33% !important;
+		flex: 0 0 33.33% !important;
+	}
+
+	#testi .row :first-child.col-6{
+		display: flex;
+		flex-direction: column;
+		justify-content: center
+	}
+
+	#testi h3 {
+		font-size: 50px !important;
+		margin-bottom: 20px;
+	}
+	
+}
+/* Collapse oversized image and pulled images after iPad breakpoint. */
+@media (max-width: 767px) {
+	:root {
+		--btn-font-size: 20px !important;
+		--heading-font-size: 40px !important;
+	}
+
+	#hero .row .col-6{
+		width: 100%;
+		flex: 0 0 100%;
+	}
+
+
+	#hero .border-btn {
+	
+		margin-bottom: 40px !important;
+	
+	}
+
+
+
+	.logo {
+		width: 350px !important;
+		padding-top: 20px;
+		margin: auto;
+	}
+
+	.text h1 {
+		font-size: 60px !important;
+		line-height: 80px !important;
+		text-align: center;
+	}
+
+	 .border-btn {
+		width: 250px !important;
+	}
+
+	#hero .border-btn {
+		width: 250px !important;
+		margin-bottom: 20px;
+		right: 50% !important;
+		transform: translate(50%) !important;
+	}
+
+	.round-box {
+		width: 250px !important;
+		height: 330px !important;
+		
+	}
+
+	.round-box h4 {
+		font-size: 30px !important;
+	
+	}
+
+	.circle-box {
+		
+		width: 90px !important;
+		height: 90px !important;
+		
+	}
+
+	
+}
+
+@media (max-width: 643px) {
+
+	#hero {
+		
+		background-position: center !important;
+		
+	}
+
+	#get .row .col-4 {
+		width: 100% !important;
+		flex: 0 0 100% !important;
+	}
+
+	#get .row{
+		row-gap: 35px;
+	}
+
+	#get .row :first-child.col-4 .arrow svg {
+		transform: scaleY(-1);
+		
+	}
+
+	#get .row :first-child.col-4 .arrow{
+		top: -60px !important;
+	}
+
+	#get .row .col-4 .arrow svg {
+		width: 280px !important;
+		display: none;
+	}
+
+	#feature .f-box {
+		width: 185px !important;
+	
+	}
+
+	#testi h3 {
+		font-size: 40px !important;
+		
+	}
+}
+@media (max-width: 576px) {
+
+	#feature .f-box {
+		width: 160px !important;
+	}
+
+	#feature h4 {
+		font-size: 18px !important;
+		
+	}
+
+	#testi .row .col-6 {
+	width: 100%;
+	flex: 0 0 100%;
+	}
+
+	#testi .icon-img {
+		
+		margin: auto;
+	}
+}
+@media (max-width: 480px) {
+	:root {
+		
+		--heading-font-size: 32px !important;
+	}
+	#counter-main .row .col-md-3.col-sm-6{
+		width: 50%;
+		flex: 0 0 50%;
+	}
+
+
+	.round-box h4 {
+		font-size: 22px !important;
+	}
+	.round-box {
+		width: 200px !important;
+		height: 280px !important;
+	}
+
+
+#testi h3 {
+    font-size: 35px !important;
+    text-align: center;
+}
+
+#feature .row .col {
+    width: 50% !important;
+    flex: 0 0 50% !important;
+}
+
+#feature .f-box {
+    width: 190px !important;
+	height: 125px !important;
+}
+
+
+
+}
+@media (max-width: 400px) {
+	:root {
+		--heading-font-size: 30px !important;
+		--sec-padding:30px 0px 30px 0px !important;
+	}
+	.round-box h4 {
+		font-size: 20px !important;
+	}
+
+
+
+#why .row .col-4{
+width: 50% !important;
+flex: 0 0 50% !important;
+} 
+
+
+.round-box {
+    width: 180px !important;
+    height: 260px !important;
+}
+
+#feature .f-box {
+    width: 170px !important;
+    height: 125px !important;
+}
+
+
+#get .parent .circle-p {
+    width: 270px !important;
+    height: 270px !important;
+}
+
+#get .parent .circle-p .circle-w {
+    width: 220px !important;
+    height: 220px !important;
+}
+
+#get .parent .circle-p .circle-w .circle-bor {
+    width: 170px !important;
+    height: 170px !important;
+}
+
+#get .parent .circle-p .circle-w .circle-bor .icon-img {
+    
+    padding-top: 30px !important;
+
+}
+
+#get .parent .circle-p .circle-w .circle-bor h4 {
+    font-size: 18px !important;
+}
+
+
+.heading h3 {
+ 
+    padding-bottom: 20px !important;
+}
+
+}
+
+/* Mobile devices */
+@media (max-width: 375px) {
+	#counter-main .row .col-md-3.col-sm-6 {
+		width: 100%;
+		flex: 0 0 100%;
+	}
+
+	#why .row .col-4 {
+		width: 100% !important;
+		flex: 0 0 100% !important;
+	}
+
+	.round-box {
+		width: 220px !important;
+		height: 300px !important;
+	}
+
+	#feature .f-box {
+		width: 150px !important;
+		
+	}
+
+	#feature h4 {
+		font-size: 16px !important;
+	}
+}
+/**
+ * 9.0 Print
+ * ----------------------------------------------------------------------------
+ */
+
+/* Retina-specific styles. */
+@media print,
+	(-o-min-device-pixel-ratio: 5/4),
+	(-webkit-min-device-pixel-ratio: 1.25),
+	(min-resolution: 120dpi) {
+
+}
+
+@media print {
+
+}
